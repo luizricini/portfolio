@@ -16,6 +16,15 @@ export const projects = [
     source: 'https://gpt3-ricini.vercel.app',
     visit: 'https://github.com/luizricini/gpt3_ricini',
     id: 1,
+  },
+  {
+    title: 'Weather App',
+    description:"Modern website for searching the current weather of any city in the world, using the OpenWeather API.",
+    image: '/images/3.png',
+    tags: ['React', 'JavaScript', 'API'],
+    source: 'https://weatherapp-luizricini.vercel.app',
+    visit: 'https://github.com/luizricini/weatherapp',
+    id: 1
   }
 ];
 
