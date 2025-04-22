@@ -1,5 +1,6 @@
 import React from 'react';
 import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
+import { SiSwift } from 'react-icons/si';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -10,7 +11,7 @@ const Technologies = () =>  (
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
       I've worked with a range a technologies in the web development world.
-      From Back-end to Design
+      From Back-end to Design, and Mobile Development
     </SectionText>
     <List>
       <ListItem>
@@ -19,9 +20,9 @@ const Technologies = () =>  (
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            React.js <br />
+            NextJS <br />
             JavaScript <br />
-            Python
+            Swift
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -31,13 +32,13 @@ const Technologies = () =>  (
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Node.js <br />
+            NodeJS <br />
             TypeScript <br />
             Prisma <br />
-            Python <br />
             PostgreSQL <br />
             MySQL <br />
-            MongoDB 
+            MongoDB <br />
+            Docker
           </ListParagraph>
         </ListContainer>
       </ListItem>

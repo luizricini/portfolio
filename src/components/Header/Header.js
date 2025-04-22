@@ -9,6 +9,7 @@ const Header = () =>  (
   <Container>
     <Div1>
       <Link href="/">
+        {/* biome-ignore lint/a11y/useValidAnchor: <explanation> */}
         <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20px' }}>
           <DiCssdeck size="3rem" /> <Span>Portfolio</Span>
         </a>

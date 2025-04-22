@@ -18,10 +18,11 @@ const Projects = () => (
           </TitleContent>
           <CardInfo>{description}</CardInfo>
           <div>
-            <TitleContent>Stack</TitleContent>
+            <TitleContent stack>Stack</TitleContent>
             <TagList>
               {tags.map((tag, i) => (
-                <Tag key={i}>{tag}</Tag>
+                // biome-ignore lint/suspicious/noArrayIndexKey: <explanation>
+<Tag key={i}>{tag}</Tag>
               ))}
             </TagList>
           </div>
