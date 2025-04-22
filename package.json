@@ -7,7 +7,7 @@
   },
   "scripts": {
     "dev": "NODE_OPTIONS='--openssl-legacy-provider' next dev",
-    "build": "next build && next export",
+    "build": "NODE_OPTIONS='--openssl-legacy-provider' next build && NODE_OPTIONS='--openssl-legacy-provider' next export",
     "start": "next start"
   },
   "dependencies": {
