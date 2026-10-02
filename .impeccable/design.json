@@ -1,0 +1,539 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-02T15:53:54.941371+00:00",
+  "title": "Design System: ricini.dev",
+  "extensions": {
+    "colorMeta": {
+      "ground": {
+        "role": "neutral",
+        "displayName": "Cool Paper",
+        "canonical": "#f4f5f7",
+        "tonalRamp": [
+          "#0b0b0c",
+          "#242526",
+          "#414243",
+          "#606163",
+          "#818284",
+          "#a4a5a7",
+          "#c8c9cb",
+          "#edeef0"
+        ]
+      },
+      "ground-2": {
+        "role": "neutral",
+        "displayName": "Paper Shade",
+        "canonical": "#eaecf0",
+        "tonalRamp": [
+          "#0a0b0e",
+          "#242528",
+          "#404245",
+          "#5f6165",
+          "#808286",
+          "#a3a5a9",
+          "#c7c9cd",
+          "#eceef2"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "White Paper",
+        "canonical": "#ffffff",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#a5a5a5",
+          "#c9c9c9",
+          "#eeeeee"
+        ]
+      },
+      "ink": {
+        "role": "primary",
+        "displayName": "Ink",
+        "canonical": "#0e1116",
+        "tonalRamp": [
+          "#080b10",
+          "#22252b",
+          "#3f4248",
+          "#5e6168",
+          "#7e8389",
+          "#a1a5ac",
+          "#c5c9d1",
+          "#eaeff6"
+        ]
+      },
+      "ink-2": {
+        "role": "neutral",
+        "displayName": "Ink 2",
+        "canonical": "#3d4451",
+        "tonalRamp": [
+          "#060b15",
+          "#1f2531",
+          "#3b424f",
+          "#5a616f",
+          "#7b8391",
+          "#9da5b5",
+          "#c1cad9",
+          "#e6efff"
+        ]
+      },
+      "ink-3": {
+        "role": "neutral",
+        "displayName": "Ink 3",
+        "canonical": "#5b6472",
+        "tonalRamp": [
+          "#050b16",
+          "#1e2531",
+          "#3a4250",
+          "#596270",
+          "#7a8392",
+          "#9ca6b5",
+          "#c0cada",
+          "#e5efff"
+        ]
+      },
+      "rule": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "canonical": "#d6dae1",
+        "tonalRamp": [
+          "#090b10",
+          "#22252a",
+          "#3f4248",
+          "#5e6167",
+          "#7f8289",
+          "#a1a5ac",
+          "#c5c9d0",
+          "#ebeff6"
+        ]
+      },
+      "lane-decode": {
+        "role": "primary",
+        "displayName": "Decode Ultramarine",
+        "canonical": "#2f4bff",
+        "tonalRamp": [
+          "#050044",
+          "#0b0377",
+          "#1926ae",
+          "#2a44e9",
+          "#456dff",
+          "#6d99ff",
+          "#98c3ff",
+          "#c6ebff"
+        ]
+      },
+      "lane-rendair": {
+        "role": "secondary",
+        "displayName": "Rendair Vermilion",
+        "canonical": "#ec5a24",
+        "tonalRamp": [
+          "#280000",
+          "#520000",
+          "#7f0d00",
+          "#af2900",
+          "#d6511f",
+          "#f47f59",
+          "#ffac8c",
+          "#ffd8be"
+        ]
+      },
+      "lane-rendair-text": {
+        "role": "secondary",
+        "displayName": "Rendair Vermilion Text",
+        "canonical": "#b8380b",
+        "tonalRamp": [
+          "#260000",
+          "#4e0000",
+          "#7a1900",
+          "#a8330b",
+          "#cf5835",
+          "#ed8466",
+          "#ffaf95",
+          "#ffdac5"
+        ]
+      },
+      "lane-epicure": {
+        "role": "secondary",
+        "displayName": "Epicure Green",
+        "canonical": "#10a37a",
+        "tonalRamp": [
+          "#001305",
+          "#00311c",
+          "#005236",
+          "#007652",
+          "#199973",
+          "#5fb997",
+          "#93dbbd",
+          "#c4fee5"
+        ]
+      },
+      "lane-epicure-text": {
+        "role": "secondary",
+        "displayName": "Epicure Green Text",
+        "canonical": "#0a7357",
+        "tonalRamp": [
+          "#001107",
+          "#002e1f",
+          "#004f3a",
+          "#1a7157",
+          "#439478",
+          "#73b59c",
+          "#a1d7c1",
+          "#cffae8"
+        ]
+      },
+      "lane-onedev": {
+        "role": "secondary",
+        "displayName": "Onedev Violet",
+        "canonical": "#8a4fff",
+        "tonalRamp": [
+          "#13003a",
+          "#2e0069",
+          "#4c139d",
+          "#6d31d3",
+          "#8c5afb",
+          "#ac88ff",
+          "#cdb4ff",
+          "#f1dfff"
+        ]
+      },
+      "lane-onedev-text": {
+        "role": "secondary",
+        "displayName": "Onedev Violet Text",
+        "canonical": "#6531d6",
+        "tonalRamp": [
+          "#110039",
+          "#290067",
+          "#461e9a",
+          "#653ad0",
+          "#8461f7",
+          "#a48dff",
+          "#c7b7ff",
+          "#ece1ff"
+        ]
+      },
+      "lane-cyos": {
+        "role": "secondary",
+        "displayName": "Cyos Ochre",
+        "canonical": "#d19a00",
+        "tonalRamp": [
+          "#1a0500",
+          "#3b1d00",
+          "#5f3900",
+          "#865700",
+          "#aa7800",
+          "#c99e45",
+          "#e8c47e",
+          "#ffebb4"
+        ]
+      },
+      "lane-cyos-text": {
+        "role": "secondary",
+        "displayName": "Cyos Ochre Text",
+        "canonical": "#7f5c00",
+        "tonalRamp": [
+          "#160800",
+          "#352100",
+          "#573d00",
+          "#7c5b10",
+          "#9e7d39",
+          "#bea169",
+          "#dfc697",
+          "#ffecc7"
+        ]
+      },
+      "night": {
+        "role": "neutral",
+        "displayName": "Night",
+        "canonical": "#0e1116",
+        "tonalRamp": [
+          "#080b10",
+          "#22252b",
+          "#3f4248",
+          "#5e6168",
+          "#7e8389",
+          "#a1a5ac",
+          "#c5c9d1",
+          "#eaeff6"
+        ]
+      },
+      "night-2": {
+        "role": "neutral",
+        "displayName": "Night 2",
+        "canonical": "#171b22",
+        "tonalRamp": [
+          "#080b12",
+          "#21252d",
+          "#3e424a",
+          "#5d616a",
+          "#7d838c",
+          "#a0a5af",
+          "#c4c9d3",
+          "#e9eff9"
+        ]
+      },
+      "night-rule": {
+        "role": "neutral",
+        "displayName": "Night Rule",
+        "canonical": "#272c35",
+        "tonalRamp": [
+          "#070b13",
+          "#20252e",
+          "#3d424c",
+          "#5c616c",
+          "#7d838d",
+          "#9fa5b1",
+          "#c3c9d5",
+          "#e8effb"
+        ]
+      },
+      "night-ink": {
+        "role": "neutral",
+        "displayName": "Night Ink",
+        "canonical": "#e8eaee",
+        "tonalRamp": [
+          "#0a0b0e",
+          "#242528",
+          "#404245",
+          "#5f6165",
+          "#808286",
+          "#a3a5a9",
+          "#c7c9cd",
+          "#eceef2"
+        ]
+      },
+      "night-ink-2": {
+        "role": "neutral",
+        "displayName": "Night Ink 2",
+        "canonical": "#b4bbc7",
+        "tonalRamp": [
+          "#070b13",
+          "#20252e",
+          "#3c424c",
+          "#5b626c",
+          "#7c838e",
+          "#9fa5b1",
+          "#c2cad6",
+          "#e8effb"
+        ]
+      },
+      "night-ink-3": {
+        "role": "neutral",
+        "displayName": "Night Ink 3",
+        "canonical": "#8a93a1",
+        "tonalRamp": [
+          "#060b15",
+          "#1e2531",
+          "#3b424f",
+          "#59626f",
+          "#7a8391",
+          "#9ca6b4",
+          "#c0cad9",
+          "#e5efff"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Hero name and closing title; expanded 114%, heavy."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section titles."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Project names; sets the project row's node line."
+      },
+      "title-sm": {
+        "displayName": "Title Small",
+        "purpose": "Company names in experience rows."
+      },
+      "lead": {
+        "displayName": "Lead",
+        "purpose": "Hero subject line, max 24ch."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Running text; intros and summaries step up to 1.06-1.15rem in ink-2."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Mono git data: hashes, refs, dates, commit subjects, stack chips, language switch."
+      }
+    },
+    "shadows": [
+      {
+        "name": "plate-lift",
+        "value": "0 30px 60px -30px rgb(14 17 22 / 0.55), 0 2px 6px rgb(14 17 22 / 0.12)",
+        "purpose": "Terminal plate only."
+      },
+      {
+        "name": "pulse-ring",
+        "value": "0 0 0 8px rgb(16 163 122 / 0)",
+        "purpose": "Animated ring on the open-to-work dot (2.4s, from 0 0 0 0 at 0.45 alpha)."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "All state transitions and graph drawing."
+      },
+      {
+        "name": "state",
+        "value": "0.2s",
+        "purpose": "Hover color/background changes."
+      },
+      {
+        "name": "line-draw",
+        "value": "transform 1s ease-out",
+        "purpose": "Graph lines scale in from top as rows are reached."
+      },
+      {
+        "name": "bend-draw",
+        "value": "clip-path 0.8s ease-out 0.15s",
+        "purpose": "Branch curves unclip after the line."
+      },
+      {
+        "name": "node-pop",
+        "value": "transform 0.6s ease-out 0.25s",
+        "purpose": "Commit nodes scale in; 1.25x on lane hover."
+      },
+      {
+        "name": "lane-dim",
+        "value": "opacity 0.3s to 0.16",
+        "purpose": "Non-hovered lanes dim when a lane row is hovered; main never dims."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "stack",
+        "value": "1080px"
+      },
+      {
+        "name": "mobile",
+        "value": "760px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The single primary ref-button per cluster (Email).",
+      "html": "<a class=\"ds-btn ds-btn--primary\" href=\"#\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"2\" y=\"4\" width=\"20\" height=\"16\" rx=\"2\"/><path d=\"m22 7-10 5L2 7\"/></svg>Email me</a>",
+      "css": ".ds-btn { display: inline-flex; align-items: center; gap: 9px; height: 46px; padding: 0 15px; border: 1.5px solid var(--ink, #0e1116); border-radius: 8px; font-family: var(--sans); font-size: 0.95rem; font-weight: 650; text-decoration: none; color: var(--ink, #0e1116); background: transparent; transition: background 0.2s cubic-bezier(0.16,1,0.3,1), color 0.2s cubic-bezier(0.16,1,0.3,1), border-color 0.2s; } .ds-btn svg { width: 18px; height: 18px; flex: none; } .ds-btn--primary { background: var(--ink, #0e1116); color: var(--ground, #f4f5f7); } .ds-btn--primary:hover { background: var(--c-decode, #2f4bff); border-color: var(--c-decode, #2f4bff); color: #fff; } .ds-btn:focus-visible { outline: 2px solid var(--c-decode, #2f4bff); outline-offset: 3px; }"
+    },
+    {
+      "name": "Ref Button",
+      "kind": "button",
+      "refersTo": "button-ref",
+      "description": "Outlined ref-button for secondary actions (LinkedIn, GitHub, CV).",
+      "html": "<a class=\"ds-btn-ref\" href=\"#\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4\"/><path d=\"m7 10 5 5 5-5\"/><path d=\"M12 15V3\"/></svg>Download CV</a>",
+      "css": ".ds-btn-ref { display: inline-flex; align-items: center; gap: 9px; height: 46px; padding: 0 15px; border: 1.5px solid var(--ink, #0e1116); border-radius: 8px; font-family: var(--sans); font-size: 0.95rem; font-weight: 650; text-decoration: none; color: var(--ink, #0e1116); background: transparent; transition: background 0.2s cubic-bezier(0.16,1,0.3,1), color 0.2s cubic-bezier(0.16,1,0.3,1); } .ds-btn-ref svg { width: 18px; height: 18px; } .ds-btn-ref:hover { background: var(--ink, #0e1116); color: var(--ground, #f4f5f7); } .ds-btn-ref:focus-visible { outline: 2px solid var(--c-decode, #2f4bff); outline-offset: 3px; }"
+    },
+    {
+      "name": "Refs",
+      "kind": "chip",
+      "refersTo": "ref-head",
+      "description": "Git ref decorations: HEAD (ink fill) and tag (outline, optional pulse).",
+      "html": "<ul class=\"ds-refs\"><li class=\"ds-ref ds-ref--head\">HEAD → main</li><li class=\"ds-ref ds-ref--tag\"><span class=\"ds-pulse\"></span>open-to-work</li></ul>",
+      "css": ".ds-refs { display: flex; gap: 8px; list-style: none; padding: 0; margin: 0; } .ds-ref { display: inline-flex; align-items: center; gap: 8px; height: 28px; padding: 0 10px; border-radius: 6px; font-family: var(--mono); font-stretch: 87.5%; font-size: 0.74rem; font-weight: 600; } .ds-ref--head { background: var(--ink, #0e1116); color: var(--ground, #f4f5f7); } .ds-ref--tag { border: 1.5px solid var(--ink, #0e1116); color: var(--ink, #0e1116); } .ds-pulse { width: 8px; height: 8px; border-radius: 50%; background: var(--c-epicure, #10a37a); animation: ds-pulse 2.4s cubic-bezier(0.16,1,0.3,1) infinite; } @keyframes ds-pulse { 0% { box-shadow: 0 0 0 0 rgb(16 163 122 / 0.45); } 70%, 100% { box-shadow: 0 0 0 8px rgb(16 163 122 / 0); } }"
+    },
+    {
+      "name": "Stack Tags",
+      "kind": "chip",
+      "refersTo": "stack-tag",
+      "description": "Per-project stack chips on white paper.",
+      "html": "<ul class=\"ds-tags\"><li>Next.js</li><li>TypeScript</li><li>pgvector</li><li>AWS Lambda</li></ul>",
+      "css": ".ds-tags { display: flex; flex-wrap: wrap; gap: 6px; list-style: none; padding: 0; margin: 0; } .ds-tags li { font-family: var(--mono); font-stretch: 87.5%; font-size: 0.7rem; font-weight: 500; padding: 4px 8px; border-radius: 6px; background: var(--paper, #fff); border: 1px solid var(--rule, #d6dae1); color: var(--ink-2, #3d4451); }"
+    },
+    {
+      "name": "Top Bar",
+      "kind": "nav",
+      "refersTo": "lang-switch-active",
+      "description": "Sticky ground bar: commit-glyph brand, section links, EN/PT segmented switch.",
+      "html": "<header class=\"ds-topbar\"><a class=\"ds-brand\" href=\"#\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\"><circle cx=\"12\" cy=\"12\" r=\"3\"/><path d=\"M3 12h6M15 12h6\"/></svg>ricini.dev</a><nav class=\"ds-nav\"><a href=\"#\">Work</a><a href=\"#\">Experience</a><a href=\"#\">Stack</a><a href=\"#\">Contact</a></nav><div class=\"ds-lang\"><a href=\"#\" aria-current=\"true\">EN</a><a href=\"#\">PT</a></div></header>",
+      "css": ".ds-topbar { display: flex; align-items: center; gap: 32px; height: 60px; padding: 0 24px; background: var(--ground, #f4f5f7); border-bottom: 1px solid var(--rule, #d6dae1); font-family: var(--sans); } .ds-brand { display: inline-flex; align-items: center; gap: 8px; font-weight: 750; font-stretch: 108%; letter-spacing: -0.01em; text-decoration: none; color: var(--ink, #0e1116); margin-right: auto; } .ds-brand svg { width: 22px; height: 22px; } .ds-nav { display: flex; gap: 28px; } .ds-nav a { color: var(--ink-2, #3d4451); text-decoration: none; font-size: 0.94rem; font-weight: 550; transition: color 0.2s; } .ds-nav a:hover { color: var(--ink, #0e1116); } .ds-lang { display: inline-flex; border: 1.5px solid var(--ink, #0e1116); border-radius: 7px; overflow: hidden; } .ds-lang a { font-family: var(--mono); font-stretch: 87.5%; font-size: 0.72rem; font-weight: 600; padding: 5px 10px; text-decoration: none; color: var(--ink, #0e1116); transition: background 0.2s, color 0.2s; } .ds-lang a:hover { background: var(--ground-2, #eaecf0); } .ds-lang a[aria-current] { background: var(--ink, #0e1116); color: var(--ground, #f4f5f7); } .ds-topbar a:focus-visible { outline: 2px solid var(--c-decode, #2f4bff); outline-offset: 3px; border-radius: 4px; }"
+    },
+    {
+      "name": "Commit Log",
+      "kind": "custom",
+      "description": "A project's proof column: real commits as mono hash, date and subject between hairlines.",
+      "html": "<div class=\"ds-log\"><p class=\"ds-log-label\">From the log</p><ol><li><span class=\"ds-log-head\"><code class=\"ds-log-hash\">a7f09f4</code><code class=\"ds-log-date\">2026-05-18</code></span><code class=\"ds-log-subject\">feat: mode select all ones and drag and drop to folders</code></li><li><span class=\"ds-log-head\"><code class=\"ds-log-hash\">3f8571f</code><code class=\"ds-log-date\">2026-05-02</code></span><code class=\"ds-log-subject\">feat: create sharp thumbnails for assets uploads</code></li></ol></div>",
+      "css": ".ds-log { font-family: var(--sans); color: var(--ink, #0e1116); } .ds-log-label { font-size: 0.85rem; font-weight: 700; margin: 0 0 10px; } .ds-log ol { list-style: none; padding: 0; margin: 0; display: grid; border-top: 1px solid var(--rule, #d6dae1); } .ds-log li { display: grid; gap: 2px; padding: 11px 0; border-bottom: 1px solid var(--rule, #d6dae1); } .ds-log code { font-family: var(--mono); font-stretch: 87.5%; font-variant-numeric: tabular-nums; } .ds-log-head { display: flex; gap: 12px; font-size: 0.72rem; } .ds-log-hash { color: var(--t-rendair, #b8380b); font-weight: 700; } .ds-log-date { color: var(--ink-3, #5b6472); } .ds-log-subject { font-size: 0.76rem; line-height: 1.5; }"
+    },
+    {
+      "name": "Terminal Plate",
+      "kind": "card",
+      "refersTo": "terminal-plate",
+      "description": "The one lifted, dark surface: a git log --graph readout in the hero.",
+      "html": "<figure class=\"ds-term\"><div class=\"ds-term-bar\"><code><span class=\"ds-term-prompt\">$</span> git log --graph --oneline</code></div><ol class=\"ds-term-log\"><li><span class=\"ds-term-node\" style=\"--lc:#8197ff\"></span><code class=\"ds-term-hash\">a7f09f4</code><code class=\"ds-term-ref\" style=\"--lc:#8197ff\">decode</code><code class=\"ds-term-subj\">feat: milestone 4 - injection defense</code></li><li><span class=\"ds-term-node\" style=\"--lc:#ff8452\"></span><code class=\"ds-term-hash\">3f8571f</code><code class=\"ds-term-ref\" style=\"--lc:#ff8452\">rendair</code><code class=\"ds-term-subj\">feat: create sharp thumbnails</code></li></ol></figure>",
+      "css": ".ds-term { margin: 0; max-width: 29rem; } .ds-term code { font-family: var(--mono); font-stretch: 87.5%; } .ds-term-bar { background: var(--night, #0e1116); color: var(--night-ink-3, #8a93a1); padding: 12px 16px; border-radius: 12px 12px 0 0; border-bottom: 1px solid var(--night-rule, #272c35); font-size: 0.72rem; } .ds-term-prompt { color: #6fdc9d; } .ds-term-log { list-style: none; margin: 0; background: var(--night, #0e1116); color: var(--night-ink, #e8eaee); padding: 14px 16px 18px; border-radius: 0 0 12px 12px; box-shadow: 0 30px 60px -30px rgb(14 17 22 / 0.55), 0 2px 6px rgb(14 17 22 / 0.12); } .ds-term-log li { display: grid; grid-template-columns: 30px auto auto minmax(0,1fr); align-items: center; column-gap: 10px; height: 31px; font-size: 0.72rem; } .ds-term-node { width: 9px; height: 9px; border-radius: 50%; border: 2px solid var(--lc); background: var(--night, #0e1116); justify-self: center; } .ds-term-hash { color: #e3b341; } .ds-term-ref { color: var(--lc); border: 1px solid currentColor; border-radius: 4px; padding: 0 5px; line-height: 1.5; } .ds-term-subj { color: var(--night-ink-2, #b4bbc7); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }"
+    },
+    {
+      "name": "Graph Row",
+      "kind": "custom",
+      "description": "The signature unit: gutter lanes with a merge node beside a row body.",
+      "html": "<div class=\"ds-row\"><div class=\"ds-graph\"><span class=\"ds-line\" style=\"--col:0;--lc:#0e1116\"></span><span class=\"ds-line ds-line--side\" style=\"--col:1;--lc:#ec5a24\"></span><span class=\"ds-node\" style=\"--col:0;--lc:#ec5a24\"></span></div><div class=\"ds-row-body\"><h3>Rendair</h3><p><span class=\"ds-dot\"></span>Rendair · 2025 — 2026</p></div></div>",
+      "css": ".ds-row { --lane: 14px; --node-y: 32px; display: grid; grid-template-columns: calc(var(--lane) * 5 + 22px) minmax(0,1fr); min-height: 120px; font-family: var(--sans); color: var(--ink, #0e1116); } .ds-graph { position: relative; } .ds-line { position: absolute; top: 0; bottom: 0; left: calc((var(--col) + 0.5) * var(--lane) - 1px); width: 2px; border-radius: 1px; background: var(--lc); } .ds-line--side { top: calc(var(--node-y) + 36px); } .ds-node { position: absolute; left: calc((var(--col) + 0.5) * var(--lane)); top: var(--node-y); width: 13px; height: 13px; translate: -50% -50%; border-radius: 50%; border: 2.5px solid var(--lc); background: var(--lc); transition: transform 0.6s cubic-bezier(0.16,1,0.3,1); } .ds-row:hover .ds-node { transform: scale(1.25); } .ds-row-body { border-top: 1px solid var(--rule, #d6dae1); padding: 20px 0; } .ds-row-body h3 { margin: 0; font-size: 2.2rem; font-weight: 800; font-stretch: 110%; letter-spacing: -0.025em; line-height: 1.05; } .ds-row-body p { display: flex; align-items: center; gap: 8px; margin: 12px 0 0; font-size: 0.92rem; font-weight: 550; color: var(--ink-2, #3d4451); } .ds-dot { width: 10px; height: 10px; border-radius: 50%; background: #ec5a24; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Commit Graph in Daylight",
+    "overview": "The page is a `git log --graph` laid out on cool paper. A continuous branch graph runs down a left gutter; every section is a row that owns its slice of each lane, so stacked rows read as one unbroken history. Companies are colored lanes that fork from main and merge back; projects are merge commits; the hero is HEAD and the close is a second HEAD on an ink field. The look is GitHub's network graph at noon, not a neon terminal: light ground, ink type, hairline rules, and color reserved for lanes.\n\nDensity is editorial-technical. Big, expanded, heavy Archivo carries names and headings; Martian Mono, condensed, appears only where git data would appear (hashes, refs, dates, commit subjects, stack chips, the language switch). Proof sits next to claims: each project carries its real commit log in a side column.\n\nDepth is nearly flat. One ink terminal plate in the hero and one ink close section are the only dark surfaces; everything else is ground, paper chips and 1px rules.",
+    "keyCharacteristics": [
+      "A left graph gutter (5 lanes at 14px plus 22px) on every row, drawn as 2px rounded lines, SVG bends and ring nodes.",
+      "Lane color is identity: each company has a line color and a darker text-safe twin.",
+      "Expanded heavy sans for display, condensed mono strictly for git data.",
+      "Buttons and pills are git refs: ink fill for HEAD, 1.5px ink outline for tags.",
+      "Light ground throughout; dark appears only as the hero terminal plate and the closing contact field."
+    ],
+    "rules": [
+      {
+        "name": "The Lane Is Identity Rule",
+        "body": "A lane color appears only on things that belong to that company's branch (its line, node, dot, hashes, markers, links). Ultramarine doubles as the interaction accent; no other lane hue is used decoratively.",
+        "section": "colors"
+      },
+      {
+        "name": "The Text Twin Rule",
+        "body": "Bright lane colors draw lines; text in a lane color always uses its darker `-text` twin. On the night ground, lanes lift to lighter tints instead.",
+        "section": "colors"
+      },
+      {
+        "name": "The Mono Means Git Rule",
+        "body": "Martian Mono is used only for data git would print: hashes, refs, dates, commit subjects, stack names, the author line. Prose, headings, buttons and nav stay in Archivo.",
+        "section": "typography"
+      },
+      {
+        "name": "The Width Ladder Rule",
+        "body": "Heading width tracks rank: display 114%, headline 112%, title 110%, company 106 to 108%, lead 104%, body 100%, mono 87.5%. Bigger means wider and tighter-tracked (-0.035em down to -0.015em).",
+        "section": "typography"
+      },
+      {
+        "name": "The One Plate Rule",
+        "body": "Only the dark terminal plate casts a shadow. Cards, images and chips sit flat on 1px rules.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** put new content in a graph row so the gutter stays continuous, and set the row's node line from its heading size.",
+      "**Do** give any new company a lane: a bright line color and a darker text twin that passes contrast on `ground`.",
+      "**Do** style calls to action as refs: 8px radius, 1.5px ink outline, ink fill for the single primary.",
+      "**Do** keep Martian Mono at 87.5% width for git data and Archivo for everything else.",
+      "**Do** separate content with 1px `rule` hairlines rather than cards."
+    ],
+    "donts": [
+      "**Don't** introduce a dark page theme or neon terminal styling; night is reserved for the terminal plate and the close.",
+      "**Don't** use a lane hue as decoration on content that does not belong to that lane.",
+      "**Don't** add shadows to cards, chips or images; the terminal plate is the only lifted surface.",
+      "**Don't** set prose, headings or buttons in mono.",
+      "**Don't** replace the vertical graph with a horizontal timeline or a card grid of projects."
+    ]
+  }
+}
